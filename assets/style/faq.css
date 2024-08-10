@@ -69,7 +69,7 @@ img {
     position: fixed;
     top: 0;
     z-index: 100;
-    opacity: .8;
+    opacity: 1;
 }
 @media screen and (max-width: 767px) {
     .header__container {
@@ -240,6 +240,7 @@ img {
     max-width: 800px;
     width: 100%;
     padding: 40px 0;
+    min-height: 2310px;
     display: flex;
     flex-direction: column;
     row-gap: 24px;
@@ -258,6 +259,7 @@ img {
     display: flex;
     flex-direction: column;
     row-gap: 6px;
+    cursor: pointer;
 
 }
 .q__headding {
@@ -276,7 +278,7 @@ img {
     width: 100px;
     height: 24px;
     font-size: 11px;
-    line-height: calc(24 / 11);
+    line-height: calc(21 / 11);
     border: solid 1px #168352;
     border-radius: 4px 4px 4px 4px;
     text-align: center;
@@ -336,6 +338,7 @@ img {
 @media screen and (max-width: 767px) {
     .faq__container {
         padding: 18px 16px 20px;
+        min-height: 2947px;
         margin: 0 auto;
         row-gap: 24px;
     }
@@ -352,7 +355,7 @@ img {
         width: 100px;
         height: 24px;
         font-size: 11px;
-        line-height: 2;
+        line-height: 1.9;
     }
     .q__headding--btn {
         top: 11px;
