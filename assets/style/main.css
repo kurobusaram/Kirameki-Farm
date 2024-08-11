@@ -114,11 +114,11 @@ img {
 .header__logo--top {
     width: 262px;
     height: auto;
-    margin-left: calc(107 / 1400 * 100vw);
+    margin-left: calc(117 / 1400 * 100vw);
     line-height: 0;
 }
 .header__nav--pc {
-    margin-right: calc(125 / 1400 * 100vw);
+    margin-right: calc(116 / 1400 * 100vw);
 }
 .header__menu {
     display: flex;
@@ -848,7 +848,8 @@ main {
 }
 @media screen and (max-width: 767px) {
     .footer__nav--list {
-        height: 63px;
+        height: 68px;
+        column-gap: 14px;
     }
     .footer__menu--price {
         font-size: 14px;
@@ -1169,7 +1170,7 @@ main {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 32px;
-    color: #168352;
+    color: #000;
     line-height: 1.2;
 }
 .price__inner--tax {
@@ -1609,10 +1610,10 @@ main {
         padding: 18px 16px 20px;
         min-height: 2947px;
         margin: 0 auto;
-        row-gap: 24px;
+        row-gap: 20px;
     }
     .faq__contents--box {
-        padding: 18px 22px 0px;
+        padding: 18px 22px 15px;
     }
     .faq__contents--q {
         row-gap: 1px;
@@ -1649,7 +1650,7 @@ main {
     }
     .faq__contents--a {
         font-size: 16px;
-        margin-bottom: 20px;
+        margin-bottom: 9px;
         line-height: 1.7;
     }
 }
